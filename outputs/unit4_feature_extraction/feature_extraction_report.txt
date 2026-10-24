@@ -1,0 +1,18 @@
+CCA 3 - UNIT 4: FEATURE EXTRACTION REPORT
+=======================================================
+
+Image 1: cca 3.jpg
+Image 2: cca 3 cv..jpg
+
+Image 1 dimensions: (1536, 1152, 3)
+Image 2 dimensions: (1536, 1152, 3)
+
+HOG feature length, image 1: 34596
+HOG feature length, image 2: 34596
+
+SIFT keypoints, image 1: 1013
+SIFT keypoints, image 2: 999
+
+Candidate matches: 1013
+Good matches before rotation: 38
+Good matches after rotation: 43

@@ -1,0 +1,23 @@
+VIDEO MOTION ESTIMATION REPORT
+=============================================
+
+Input video: cca 3 cvv.mp4
+FPS: 29.97
+Frames processed: 531
+
+METHODS IMPLEMENTED
+1. Frame Differencing
+2. GMM Background Subtraction (MOG2)
+3. Lucas-Kanade Optical Flow
+
+AGGREGATE RESULTS
+Total foreground pixels from frame differencing: 21964817
+Total foreground pixels from GMM: 17606792
+Total valid optical-flow tracks across frames: 32031
+
+METHOD COMPARISON
+Frame differencing compares consecutive frames and highlights changes between them.
+GMM background subtraction models the background over time to identify foreground regions.
+Lucas-Kanade optical flow estimates displacement of tracked feature points between consecutive frames.
+
+Note: Aggregate counts are not accuracy measurements. Results depend on camera motion, lighting, scene content and parameter settings.

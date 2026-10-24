@@ -1,0 +1,24 @@
+OBJECT RECOGNITION USING YOLO AND VIOLA-JONES
+==================================================
+
+Input video: cca 3 cvv.mp4
+Video width: 478
+Video height: 850
+Frame rate: 29.97
+Frames processed: 532
+
+YOLO OBJECT DETECTION
+------------------------------
+Total object detections across frames: 217
+bench: 9 detections
+bicycle: 4 detections
+car: 173 detections
+motorcycle: 1 detections
+person: 15 detections
+traffic light: 15 detections
+
+VIOLA-JONES FACE DETECTION
+------------------------------
+Total face detections across frames: 26
+
+Note: Detection totals count detections across frames, not unique objects.
